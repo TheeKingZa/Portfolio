@@ -43,6 +43,6 @@
    * [AirBnB_Clone v2](https://github.com/TheeKingZa/airbnb_clone_v2/tree/master/README.md)
 ---
 
-<center> [ALX](https://www.alxafrica.com) </center>
+# [ALX](https://www.alxafrica.com)
 
 [^](#portfolio)
