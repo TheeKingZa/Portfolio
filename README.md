@@ -30,8 +30,7 @@
     Best regards,
     Pule Mathikha
 
-    [^](#portfolio)
-
+---
 # Projects
   
 * Other projects
@@ -43,3 +42,6 @@
     * [Sorting_Algorithms](https://github.com/TheeKingZa/sorting_algorithms/tree/master/README.md)
     * [AirBnB_Clone](https://github.com/TheeKingZa/airbnb_clone/tree/master/README.md)
     * [AirBnB_Clone v2](https://github.com/TheeKingZa/airbnb_clone_v2/tree/master/README.md)
+---
+
+[^](#portfolio)
