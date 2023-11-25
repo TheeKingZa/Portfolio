@@ -34,3 +34,12 @@
 
 # Projects
   
+* Other projects
+    * [Alx-Low_Level_Programming](https://github.com/TheeKingZa/alx-low_level_programming/tree/master/README.md)
+    * [Alx-System_Engineering-Devops](https://github.com/TheeKingZA/alx-system_engineering-devops/tree/master/README.md)
+    * [Fix_My_Code_Challenge](https://github.com/TheeKingZa/fix_my_code_challenge/tree/master/README.md)
+    * [Binary_Trees](https://github.com/TheeKingZa/binary_trees/tree/master/README.md)
+    * [Monty](https://github.com/TheeKingZa/monty/tree/master/README.md)
+    * [Sorting_Algorithms](https://github.com/TheeKingZa/sorting_algorithms/tree/master/README.md)
+    * [AirBnB_Clone](https://github.com/TheeKingZa/airbnb_clone/tree/master/README.md)
+    * [AirBnB_Clone v2](https://github.com/TheeKingZa/airbnb_clone_v2/tree/master/README.md)
