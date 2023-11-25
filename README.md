@@ -43,7 +43,7 @@
    * [AirBnB_Clone v2](https://github.com/TheeKingZa/airbnb_clone_v2/tree/master/README.md)
 ---
 # Other Projects
-   * [Web_Shapes](https://github.com/TheeKingZa/Shape_Shooter)
+   * [Web_Shapes](https://github.com/TheeKingZa/Shape_Shooter/README.md)
 ---
 
 # [ALX](https://www.alxafrica.com)
