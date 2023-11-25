@@ -41,8 +41,9 @@
    * [Sorting_Algorithms](https://github.com/TheeKingZa/sorting_algorithms/tree/master/README.md)
    * [AirBnB_Clone](https://github.com/TheeKingZa/airbnb_clone/tree/master/README.md)
    * [AirBnB_Clone v2](https://github.com/TheeKingZa/airbnb_clone_v2/tree/master/README.md)
+---
 # Other Projects
-   * [Web_creation(ideas)](https://github.com/TheeKingZa/Shape_Shooter/README.md)
+   * [Web_Shapes](https://github.com/TheeKingZa/Shape_Shooter)
 ---
 
 # [ALX](https://www.alxafrica.com)
