@@ -45,6 +45,7 @@
 # Other Projects
    * [Web_Shapes](https://github.com/TheeKingZa/Shape_Shooter#readme)
    * [ALX](http://alxafrica.com)-> [Festive Programming Challenge](https://github.com/TheeKingZa/christXmas_wish/tree/master/README.md)
+   * Website -> [Nostalgic Candy](https://github.com/TheeKingZa/Nostalgic-Candy/README.md)
 ---
 
 # [ALX](https://www.alxafrica.com)
