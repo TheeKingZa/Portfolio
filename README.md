@@ -5,7 +5,7 @@
     
     Hello everyone,
 
-    I'm Pule Mathikha, and I'm excited to introduce myself to this dynamic community.
+    I'm excited to introduce myself to this dynamic community.
     I am a passionate software engineer with a keen interest in the arts,
     particularly drawing and music. As a multifaceted individual,
     I bring a unique blend of creativity and technical expertise to any project.
