@@ -1,5 +1,5 @@
-# Portfolio
-# [Pule Mathikha](https://wwww.pulemathikha.wordpress.com)
+# `Portfolio`
+# [`Pule`_Mathikha](https://wwww.pulemathikha.wordpress.com)
 
 # Gaining One's Definition.
     
@@ -35,6 +35,7 @@
    * [Alx-Low_Level_Programming](https://github.com/TheeKingZa/alx-low_level_programming/tree/master/README.md)
    * [Alx-System_Engineering-Devops](https://github.com/TheeKingZA/alx-system_engineering-devops/tree/master/README.md)
    * [Alx-Higher_Level_Programming](https://github.com/TheeKingZa/alx-higher_level_programming/tree/master/README.md)
+   * [Alx-Frontend-Javascript](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/README.md)
    * [Fix_My_Code_Challenge](https://github.com/TheeKingZa/fix_my_code_challenge/tree/master/README.md)
    * [Binary_Trees](https://github.com/TheeKingZa/binary_trees/tree/master/README.md)
    * [Monty](https://github.com/TheeKingZa/monty/tree/master/README.md)
