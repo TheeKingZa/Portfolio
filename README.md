@@ -43,13 +43,12 @@
    * [AirBnB_Clone](https://github.com/TheeKingZa/airbnb_clone/tree/master/README.md)
    * [AirBnB_Clone v2](https://github.com/TheeKingZa/airbnb_clone_v2/tree/master/README.md)
 ---
-# Other Projects
-   * [Web_Shapes](https://github.com/TheeKingZa/Shape_Shooter#readme)
-   * [ALX](http://alxafrica.com)-> [Festive Programming Challenge](https://github.com/TheeKingZa/christXmas_wish/tree/master/README.md)
-   * Website -> [Nostalgic Candy](https://github.com/TheeKingZa/Nostalgic-Candy/blob/master/README.md)
+# My_Projects
    * [Vaal Triangle artGallery](https://github.com/TheeKingZa/ArtGallery/blob/master/README.md)
+   * [`School Website(Theha Setjhaba Ps)`](https://theekingza.github.io/School)
 ---
 
 # [ALX](https://www.alxafrica.com)
+
 
 [^](#portfolio)
