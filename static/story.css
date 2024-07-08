@@ -162,6 +162,16 @@ p {
         color: var(--black);
     }
 
+    .intro-brief {
+        font-size: 25.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid;
+        height: 200px;
+        background-color: var(--color-secondary);
+    }
+
     .Block-img {
         display: none;
     }
@@ -210,6 +220,15 @@ p {
     
     }
 
+    .intro-brief {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid;
+        height: 200px;
+    }
+
     .intro-1 {
         grid-area: Greetings;
         font-size: 70pt;
@@ -234,7 +253,7 @@ p {
         padding: 15px;
         font-style: italic;
         position: sticky;
-        margin-top: 2rem;
+        margin-top: 20rem;
         height: 20vh;
         border: 1px solid var(--color-main);
         border-radius: 25px;
@@ -248,8 +267,12 @@ p {
         font-family: 'Chakra Petch';
         align-self: end;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
         color: var(--black);
+        height: 450px;
+        margin-top: 50%;
     }
     .trap {
         display: flex;
