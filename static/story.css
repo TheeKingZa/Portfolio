@@ -105,15 +105,12 @@ p {
         flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
-        min-height: 100vh;
-        border: 3px solid yellow;
-    
+        min-height: 100vh;    
     }
     .intro {
         min-height: 100vh;
-        color: red;
+        color: var(--color-main);
         padding: 5px;
-        border: 3px solid orange;
         display: grid;
         grid: 
             " Greetings Greetings" 75vh
@@ -203,9 +200,8 @@ p {
 
     .intro {
         min-height: 100vh;
-        color: red;
+        color: var(--color-main);
         padding: 5px;
-        border: 3px solid orange;
         display: grid;
         grid: 
             " Greetings Greetings" 75vh
@@ -240,9 +236,9 @@ p {
         position: sticky;
         margin-top: 2rem;
         height: 20vh;
-        border: 1px solid yellow;
+        border: 1px solid var(--color-main);
         border-radius: 25px;
-        background-color: var(--color-2);
+        background-color: var(--color2-secondary);
     }
     
     .intro-3 {
@@ -253,7 +249,7 @@ p {
         align-self: end;
         display: flex;
         justify-content: center;
-        color: var(--color-2);
+        color: var(--black);
     }
     .trap {
         display: flex;
@@ -261,7 +257,6 @@ p {
         flex-wrap: wrap;
         width: 100%;
         min-height: 100vh;
-        border: 3px solid yellow;
     
     }
 }
