@@ -203,6 +203,13 @@ p {
     
     }
     
+        .nameis-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            width: 100%;
+            margin-bottom: 20vh;
+        }
     .intro-1 {
         grid-area: Greetings;
         font-size: 70pt;
@@ -246,22 +253,18 @@ p {
         color: var(--black);
     }
 
-    .nameis-grid {
-        border: 3px solid;
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        width: 100%;
-    }
 
     .intro-brief {
+        margin-bottom: 50vh;
         font-size: 25.5px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         border: 3px solid;
         height: 200px;
         background-color: var(--color-secondary);
+        gap: 2rem;
     }
 
     .Block-img {
