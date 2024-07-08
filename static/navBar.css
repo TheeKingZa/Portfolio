@@ -1,0 +1,44 @@
+/*
+ * Navigation Set up
+ */
+nav {
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    gap: 2rem;
+    display: flex;
+    padding: 1px;
+    background-color: var(--color-3);
+}
+
+/*
+ * All Nav divisions
+ */
+
+nav div {
+    background-color: var(--color-2);
+    padding: 5px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-3);
+}
+
+nav a:hover {
+    color: var(--color-main);
+    font-weight: bold;
+}
+
+
+/*
+ * naav Items
+ */
+.nav-item1 {
+}
+.nav-item2 {
+}
+.nav-item3 {
+}

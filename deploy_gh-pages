@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+
+# git add all and Commit
+git add . && git commit -m "
+                [Profile_uploads]
+                [Description]
+                [Starting a Website for My profile and working to make it look Good]
+                "
+# git push
+git push origin master
+
+# Switch to gh-pages and merge master
+git checkout gh-pages && git merge master
+
+# Switch back to master
+git checkout master

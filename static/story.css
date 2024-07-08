@@ -1,0 +1,244 @@
+/*
+ * Story styling
+ */
+
+
+/*
+ * Trap elements inside "Trap"
+ * 
+ * @Trap - Parent
+ */
+.trap > * {
+
+}
+
+
+
+.trap-block1 {
+    flex: 1;
+}
+
+.intro {
+}
+
+p {
+    margin: 0;
+}
+
+/*intro*/
+.intro-1 {
+    grid-area: Greetings;
+}
+
+.intro-2 {
+    grid-area: Introduction;
+}
+
+.intro-3 {
+    grid-area: name;
+}
+
+
+/*
+ * Block traps
+ */
+.trap-block1 h1 {
+}
+
+
+.trap-block2 {
+}
+
+.trap-block2 h1 {
+}
+
+.trap-sub-nav {
+    z-index: 998;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-2);
+    border: 3px solid red;
+    top: 2rem;
+    position: sticky;
+}
+
+.trap-block3 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.Block3 {
+
+}
+
+.Block-img img {
+    width: 100%;
+    display: flex;
+    justify-self: end;
+    border: 3px solid red;
+    top: 50%;
+    position: sticky;
+
+    animation: at 5s infinite;
+}
+
+@keyframes at {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+
+    }
+    
+}
+
+
+.trap-block4 {
+
+
+}
+.trap-block5 {
+
+}
+
+/* Small Screens */
+@media (width < 500px) {
+    .trap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        min-height: 100vh;
+        border: 3px solid yellow;
+    
+    }
+    .intro {
+        min-height: 100vh;
+        color: red;
+        padding: 5px;
+        border: 3px solid orange;
+        display: grid;
+        grid: 
+            " Greetings Greetings" 75vh
+            "Introduction Name" 100vh / 1fr 1fr;
+        margin-bottom: 50vh;
+    
+    }
+    
+    .intro-1 {
+        grid-area: Greetings;
+        font-size: 70pt;
+        position: sticky;
+        top: 1rem;
+        font-size: 50pt;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        border: 3px solid gray;
+    }
+    
+    .intro-2 {
+        grid-area: Introduction;
+        font-weight: 900;
+        font-size: 30px;
+        top: 70%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        font-style: italic;
+        position: sticky;
+        margin-top: 2rem;
+        height: 20vh;
+        border: 1px solid yellow;
+        border-radius: 25px;
+        background-color: var(--color-2);
+    }
+    
+    .intro-3 {
+        grid-area: Name;
+        font-weight: bold;
+        font-size: 100pt;
+        font-family: 'Chakra Petch';
+        align-self: end;
+        display: flex;
+        justify-content: center;
+        color: var(--color-2);
+    }
+
+    .Block-img {
+        display: none;
+    }
+}
+
+/* Large Screens */
+@media (width > 500px) {
+    .intro {
+        min-height: 100vh;
+        color: red;
+        padding: 5px;
+        border: 3px solid orange;
+        display: grid;
+        grid: 
+            " Greetings Greetings" 75vh
+            "Introduction Name" 100vh / 1fr 1fr;
+        margin-bottom: 50vh;
+    
+    }
+
+    .intro-1 {
+        grid-area: Greetings;
+        font-size: 70pt;
+        position: sticky;
+        top: 1rem;
+        font-size: 50pt;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        border: 3px solid gray;
+    }
+    
+    .intro-2 {
+        grid-area: Introduction;
+        font-weight: 900;
+        font-size: 30px;
+        top: 70%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        font-style: italic;
+        position: sticky;
+        margin-top: 2rem;
+        height: 20vh;
+        border: 1px solid yellow;
+        border-radius: 25px;
+        background-color: var(--color-2);
+    }
+    
+    .intro-3 {
+        grid-area: Name;
+        font-weight: bold;
+        font-size: 100pt;
+        font-family: 'Chakra Petch';
+        align-self: end;
+        display: flex;
+        justify-content: center;
+        color: var(--color-2);
+    }
+    .trap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        min-height: 100vh;
+        border: 3px solid yellow;
+    
+    }
+}

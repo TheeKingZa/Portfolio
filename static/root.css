@@ -1,0 +1,70 @@
+/*
+ * Apply Fonts
+ */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/*
+ * Reset the browser default
+ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+
+    /* Main Colors */
+    --color-main: rgb(0, 97, 76);
+    --color-primary: rgb(1, 154, 121);
+    --color-secondary: rgb(0, 255, 200);
+
+    /* Secondary Colors */
+    --color2-main: rgb(133, 113, 0);
+    --color2-primary: rgb(195, 169, 24);
+    --color2-secondary: gold;
+
+    /* Basic Colors */
+    --black: black;
+    --white: white;
+    --text: gold;
+    --test: lime;
+    --error: red;
+
+}
+
+
+
+body {
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 300;
+    background: linear-gradient(var(--white), var(--black));
+    padding: 5rem 0 5rem 0;
+    min-height: 100vh;
+    border: 5px solid var(--color-2);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.img-logo {
+    min-width: 24px;
+    height: 24px;
+
+}
+
+.trap a {
+    text-decoration: none;
+}
