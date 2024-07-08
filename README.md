@@ -1,5 +1,5 @@
 # Portfolio
-# [Pule Mathikha](https://wwww.pulemathikha.wordpress.com)
+# [`Pule Mathikha`](https://theekingza.github.io/Portfolio/)
 
 # Gaining One's Definition.
     

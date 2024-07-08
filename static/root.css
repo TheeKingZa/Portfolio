@@ -66,5 +66,26 @@ img {
 }
 
 .trap a {
+    color: var(--color-main);
     text-decoration: none;
+}
+
+.trap a:hover {
+    animation: blinker .5s infinite alternate;
+    color: var(--color-main);
+}
+
+@keyframes blinker {
+    0% {
+        color: var(--color2-main);
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: var(--color-main);
+    }
+    
 }
