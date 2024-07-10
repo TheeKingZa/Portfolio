@@ -94,7 +94,7 @@ p {
     width: 50px;
     height: 50px;
     background-color: var(--black);
-    background-image: url('../imgs/img\ \(4x4\).jpeg');
+    background-image: url('../imgs/Logos/logo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -277,6 +277,15 @@ p {
         display: none;
     }
 
+    .trap-block3 {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .trap-sub-nav {
         z-index: 998;
         padding: 5px;
@@ -289,12 +298,21 @@ p {
         position: sticky;
     }
 
+    .imgs-sub-nav {
+        width: 20px;
+    }
+
     .welcome-2-my {
         padding: 15px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         background-position: center;
+    }
+
+    footer img {
+        padding: 4px;
+        width: 40px;
     }
 }
 
@@ -421,7 +439,8 @@ p {
     }
 
     .trap-block3 {
-        display: flex;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
     }
 
     .Block3 {
@@ -436,5 +455,16 @@ p {
     .Block-img {
         width: 50%;
         padding: 5px;
+    }
+
+    .imgs-sub-nav {
+        width: 50px;
+    }
+
+    /* Footer imgs*/
+    footer {
+        width: 100vw;
+        padding: 4px;
+        width: 40px;
     }
 }
