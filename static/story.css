@@ -74,10 +74,14 @@ p {
 
 
 .trap-block4 {
+    background-color: var(--color2-secondary);
+    margin-top: 10vh;
     padding: 5px;
     text-align: center;
 }
 .trap-block5 h1{
+    margin-top: 10vh;
+    background-color: var(--color2-secondary);
     text-align: center;
 }
 
@@ -423,9 +427,10 @@ p {
     .block-inner-body {
         padding: 5px;
         gap: 1rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 3px solid lime;    
     }
     
     .welcome-2-my {
