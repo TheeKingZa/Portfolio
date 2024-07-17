@@ -292,7 +292,7 @@
         z-index: 998;
         padding: 5px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         background-color: var(--color2-secondary);
         border: 3px solid var(--black);
@@ -334,7 +334,7 @@
         z-index: 998;
         padding: 5px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         background-color: var(--color2-secondary);
         border: 3px solid var(--black);
