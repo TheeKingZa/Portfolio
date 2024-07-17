@@ -20,9 +20,9 @@
 :root {
 
     /* Main Colors */
-    --color-main: rgb(0, 97, 76);
-    --color-primary: rgb(1, 154, 121);
-    --color-secondary: rgb(0, 255, 200);
+    --color-main: rgb(125, 0, 84);
+    --color-primary: rgb(207, 0, 186);
+    --color-secondary: rgb(242, 0, 255);
 
     /* Secondary Colors */
     --color2-main: rgb(133, 113, 0);
@@ -38,7 +38,13 @@
 
 }
 
+h1, h2, h3 {
+    color: var(--black);
+}
 
+p {
+    color: var(--black);
+}
 
 body {
     color: var(--black);

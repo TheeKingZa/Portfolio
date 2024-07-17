@@ -16,10 +16,6 @@
     flex: 1;
 }
 
-p {
-    color: var(--color-main);
-    margin: 0;
-}
 
 /*intro*/
 .intro-1 {
@@ -191,6 +187,11 @@ p {
 
 /* Small Screens */
 @media (width < 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
     nav {
         width: 100%;
@@ -265,16 +266,12 @@ p {
 
 
     .intro-brief {
-        margin-bottom: 50vh;
-        font-size: 25.5px;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
         justify-content: center;
         align-items: center;
         border: 3px solid;
         height: 200px;
-        background-color: var(--color-secondary);
-        gap: 2rem;
+        background-color: var(--color2-secondary);
     }
 
     .Block-img {
@@ -314,6 +311,11 @@ p {
         background-position: center;
     }
 
+    .block-inner-body {
+        margin-top: 2px;
+        background-color: var(--color2-secondary);
+    }
+
     footer img {
         padding: 4px;
         width: 40px;
@@ -324,7 +326,7 @@ p {
 @media (width > 500px) {
     nav {
         width: 100%;
-        background-color: var(--black);
+        background-color: var(--color2-secondary);
         color: var(--color2-secondary);
     }
     .trap-sub-nav {
@@ -342,7 +344,6 @@ p {
     .intro {
         width: 100%;
         min-height: 50vh;
-        color: var(--color-main);
         padding: 5px;
         display: flex;
         flex-direction: column;
@@ -366,7 +367,7 @@ p {
         align-items: center;
         border: 3px solid;
         height: 200px;
-        background-color: var(--color-secondary);
+        background-color: var(--color2-secondary);
     }
 
     .intro-1 {
@@ -430,7 +431,8 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border: 3px solid lime;    
+        margin-top: 2vh;
+        background-color: var(--color2-secondary);    
     }
     
     .welcome-2-my {
@@ -440,7 +442,7 @@ p {
         justify-content: center;
         align-items: center;
         justify-content: space-around;
-        background-color: var(--color-main);
+        background-color: var(--color2-primary);
     }
 
     .trap-block3 {
