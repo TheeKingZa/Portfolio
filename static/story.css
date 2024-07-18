@@ -94,10 +94,11 @@
     width: 50px;
     height: 50px;
     background-color: var(--black);
-    background-image: url('../imgs/Logos/logo.jpg');
+    background-image: url('../imgs/Logos/logo.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 10px;
 
 }
 
@@ -185,294 +186,24 @@
     }
 }
 
-/* Small Screens */
-@media (width < 500px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    nav {
-        width: 100%;
-        background-color: var(--color2-secondary);
-    }
-    
-
-    .trap {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-        min-height: 100vh;    
-    }
-    .intro {
-        min-height: 100vh;
-        color: var(--color-main);
-        padding: 5px;
-        display: flex;
-        flex-direction: column;
-    
-    }
-    
-        .nameis-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            width: 100%;
-            margin-bottom: 20vh;
-        }
-    .intro-1 {
-        grid-area: Greetings;
-        font-size: 70pt;
-        position: sticky;
-        top: 1rem;
-        font-size: 50pt;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        padding: 5px;
-        margin-bottom: 30vh;
-    }
-    
-    .intro-2 {
-
-        grid-area: Introduction;
-        font-weight: 900;
-        font-size: 30px;
-        top: 70%;
-        display: flex;
-        flex-direction: column;
-        padding: 15px;
-        font-style: italic;
-        position: sticky;
-        height: 10vh;
-        border: 1px solid var(--color-secondary);
-        border-radius: 25px;
-        background-color: var(--color2-secondary);
-        margin-bottom: 30vh;
-    }
-    
-    .intro-3 {
-        grid-area: Name;
-        font-weight: bold;
-        font-size: 100pt;
-        font-family: 'Chakra Petch';
-        align-self: end;
-        display: flex;
-        justify-content: center;
-        color: var(--black);
-    }
 
 
-    .intro-brief {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        border: 3px solid;
-        height: 200px;
-        background-color: var(--color2-secondary);
-    }
-
-    .Block-img {
-        display: none;
-    }
-
-    .trap-block3 {
-        padding: 5px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .trap-sub-nav {
-        z-index: 998;
-        padding: 5px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: var(--color2-secondary);
-        border: 3px solid var(--black);
-        top: 3.3rem;
-        position: sticky;
-    }
-
-    .imgs-sub-nav {
-        width: 20px;
-    }
-
-    .welcome-2-my {
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        background-position: center;
-    }
-
-    .block-inner-body {
-        margin-top: 2px;
-        background-color: var(--color2-secondary);
-    }
-
-    footer img {
-        padding: 4px;
-        width: 40px;
-    }
+.public-repos {
+    margin: 15px;
+    padding: 5px;
+    background-color: var(--white);
+    border: 3px inset var(--color2-main);
+    border-radius: 25px;
 }
 
-/* Large Screens */
-@media (width > 500px) {
-    nav {
-        width: 100%;
-        background-color: var(--color2-secondary);
-        color: var(--color2-secondary);
-    }
-    .trap-sub-nav {
-        z-index: 998;
-        padding: 5px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: var(--color2-secondary);
-        border: 3px solid var(--black);
-        top: 3.2rem;
-        position: sticky;
-    }
+.github-contribution-calendar {
+    padding: 5px;
+    background-color: var(--white);
+    border: 3px inset var(--color2-main);
+    border-radius: 25px;
+}
 
-    .intro {
-        width: 100%;
-        min-height: 50vh;
-        padding: 5px;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 50vh;
-    
-    }
-
-    .nameis-grid {
-        display: flex;
-        justify-content: center;
-        justify-content: space-around;
-
-    }
-
-    .intro-brief {
-        padding: 5px;
-        gap: 2rem;
-        font-size: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 3px solid;
-        height: 200px;
-        background-color: var(--color2-secondary);
-    }
-
-    .intro-1 {
-        grid-area: Greetings;
-        font-size: 70pt;
-        position: sticky;
-        top: 1rem;
-        font-size: 50pt;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-    }
-    
-    .intro-2 {
-        grid-area: Introduction;
-        font-weight: 900;
-        font-size: 40px;
-        top: 70%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 15px;
-        font-style: italic;
-        position: sticky;
-        margin-top: 20rem;
-        margin-bottom: 10rem;
-        height: 20vh;
-        border: 1px solid var(--color-main);
-        border-radius: 25px;
-        background-color: var(--color2-secondary);
-    }
-    
-    .intro-3 {
-        grid-area: Name;
-        font-weight: bold;
-        font-size: 100pt;
-        font-family: 'Chakra Petch';
-        align-self: end;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        color: var(--black);
-        height: 450px;
-        margin-top: 20rem;
-    }
-    .trap {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-        min-height: 100vh;
-    
-    }
-
-    .block-inner-body {
-        padding: 5px;
-        gap: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 2vh;
-        background-color: var(--color2-secondary);    
-    }
-    
-    .welcome-2-my {
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-around;
-        background-color: var(--color2-primary);
-    }
-
-    .trap-block3 {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-    }
-
-    .Block3 {
-        padding: 5px;
-        font-size: 19px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        color: var(--black);
-    }
-    .Block-img {
-        width: 50%;
-        padding: 5px;
-    }
-
-    .imgs-sub-nav {
-        width: 50px;
-    }
-
-    /* Footer imgs*/
-    footer {
-        width: 100vw;
-        padding: 4px;
-        width: 40px;
-    }
+.github-activity-graph {
+    background-color: var(--white);
+    border: 3px inset var(--color2-main);
 }

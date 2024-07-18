@@ -50,7 +50,6 @@ body {
     color: var(--black);
     font-size: 1rem;
     font-weight: 300;
-    background: linear-gradient(var(--white), var(--black));
     padding: 5rem 0 5rem 0;
     min-height: 100vh;
     display: flex;
@@ -109,11 +108,31 @@ img {
 
 
 footer {
-    z-index: 999;
-    bottom: 0;
-    position: sticky;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 footer img {
     padding: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.icons {
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+    height: 40%;
+}
+
+footer{
+    background-color: var(--black);
+}
+
+.information-footer {
+    padding: 5px;
+    border: 3px inset var(--color2-secondary);
+    background-color: var(--white);
 }
