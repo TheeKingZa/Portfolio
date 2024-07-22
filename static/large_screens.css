@@ -141,8 +141,9 @@
         color: var(--black);
     }
     .Block-img {
-        width: 50%;
-        padding: 5px;
+        border-radius: 25px;
+        background-color: var(--color2-secondary);
+        border: 3px solid var(--black);
     }
 
     .imgs-sub-nav {

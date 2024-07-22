@@ -47,23 +47,19 @@
         </div>
 
         <div class="trap-sub-nav">
-            <a href="https://www.facebook.com/pympc">
-                <img class="imgs-sub-nav" src="./imgs/socials/facebook.png" alt="facebook">
-                <div class="socials">Facebook</div>
-            </a>
+            <h1>Welcome to My Journey</h1>
         </div>
 
         <div class="welcome-2-my">
-            <h1>Welcome to My Journey</h1>
             <div class="trap-block3">
                 <div class="Block3">
                     <p>I'm excited to introduce myself to this dynamic community. I am a passionate software engineer with a keen interest in the arts, particularly drawing and music. As a multifaceted individual, I bring a unique blend of creativity and technical expertise to any project.</p>
-                    <p>In the world of software engineering, I thrive as a team player. Collaboration is not just a strategy for me; it's a philosophy. I believe that diverse perspectives lead to innovative solutions, and I am always eager to contribute my skills and learn from others. My commitment to teamwork is complemented by my ability to work independently, making me well-suited for remote opportunities.</p>
+                    <p>In the world of software engineering, I thrive as a team player. Collaboration is not just a strategy for me, it's a philosophy. I believe that diverse perspectives lead to innovative solutions, and I am always eager to contribute my skills and learn from others. My commitment to teamwork is complemented by my ability to work independently, making me well-suited for remote opportunities.</p>
                     <p>Adaptability is one of my strengths. I am comfortable working under pressure, navigating complex challenges, and delivering high-quality results within deadlines. I understand the importance of seeking help when needed, valuing the collective intelligence of a team.</p>
                     <p>I am currently exploring remote job opportunities and am enthusiastic about the prospect of bringing my skills and passion to a new project. If you are looking for a dedicated and versatile team member, I'd love to connect.</p>
                 </div>
                 <div class="Block-img">
-                    <img src="./imgs/Logos/logo_Screen.jpg" alt="Logo">
+                    <img src="./imgs/Logos/logo.png" alt="Logo">
                 </div>
             </div>
         </div>
@@ -147,6 +143,8 @@
                     <div>
                         <a style="color: var(--white);" href="https://youtu.be/a3NYnBlj1Vk">More Money</a>
                         <p>(Prod.by <a style="color: var(--white);" href="https://open.spotify.com/artist/21Z6IkzMPcAifChT85ynXN?si=Di0TRucCQzKr9sXxYwLsZw">Earle Fari</a>)</p>
+                    </div>
+                    <div>
                         <p>2022</p>
                         <span>[Description/Brief]</span>
                         <p>More money a person has the more the problems too.</p>
@@ -156,6 +154,74 @@
         </div>
     </div>
 
+    
+    
+    
+    
+    <!-- Intergrading spotify -->
+<!--      
+    <div style="padding: 20px;" class="spotify-grid">
+        <h1>Integrating your Spotify activity into your portfolio website</h1>
+        <p>Integrating your Spotify activity into your portfolio website can be done by embedding Spotify tracks, playlists, albums, and artist profiles. Here are some examples:</p>
+
+        <h2>1. Embedding a Spotify Track</h2>
+        <div class="spotify-track">
+            <iframe src="https://open.spotify.com/embed/track/track-id" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <p>Replace track-id with the actual Spotify track ID.</p>
+        </div>
+
+        <h2>2. Embedding a Spotify Playlist</h2>
+        <div class="spotify-playlist">
+            <iframe src="https://open.spotify.com/embed/playlist/playlist-id" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <p>Replace playlist-id with the actual Spotify playlist ID.</p>
+        </div>
+
+        <h2>3. Embedding a Spotify Album</h2>
+        <div class="spotify-album">
+            <iframe src="https://open.spotify.com/embed/album/album-id" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <p>Replace album-id with the actual Spotify album ID.</p>
+        </div>
+
+        <h2>4. Embedding a Spotify Artist Profile</h2>
+        <div class="spotify-artist">
+            <iframe src="https://open.spotify.com/embed/artist/artist-id" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <p>Replace artist-id with the actual Spotify artist ID.</p>
+        </div>
+
+        <h2>5. Display Recent Spotify Tracks Using JavaScript (requires access to Spotify API)</h2>
+        <div id="recent-spotify-tracks"></div>
+        <script>
+            const accessToken = 'your-spotify-access-token';
+
+            fetch('https://api.spotify.com/v1/me/top/tracks', {
+                headers: {
+                    'Authorization': `Bearer ${accessToken}`
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                const tracksContainer = document.getElementById('recent-spotify-tracks');
+                data.items.forEach(track => {
+                    const trackElement = document.createElement('div');
+                    trackElement.innerHTML = `
+                        <iframe src="https://open.spotify.com/embed/track/${track.id}" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    `;
+                    tracksContainer.appendChild(trackElement);
+                });
+            });
+        </script>
+        <p>Replace your-spotify-access-token with your actual Spotify access token (you need to register an application on Spotify to get an access token).</p>
+
+        <h2>6. Embedding a Spotify Follow Button</h2>
+        <div class="spotify-follow-button">
+            <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:artist-id&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+            <p>Replace artist-id with your Spotify artist ID.</p>
+        </div>
+    </div> -->
+    
+    
+    
+    
     <div style="background-color: var(--color2-main);display: flex; justify-content: center;">
         <h1>Stay Tuned...</h1>
     </div>
@@ -163,9 +229,19 @@
     <!-- Footer -->
     <footer>
         <div class="information-footer">
-            <h1>More information Goes here</h1> 
+            <h1>Pule Mathikha</h1>
+            <div>
+                Contact: 079 311 9969<br>
+                e-mail: <a href="mailto:proceedingmc@gmail.com">prceedingmc@gmail.com</a><br>
+            </div> 
         </div>
         <div class="icons">
+            <!-- facebook -->
+             <button>
+                <a href="https://www.facebook.com/pympc">
+                    <img src="./imgs/socials/facebook.png" alt="facebook">
+
+             </button>
             <!-- Whatsapp -->
             <button>
                 <a href="https://wa.me/qr/4F6VTKZQC2TQD1">
@@ -211,10 +287,9 @@
         </div>
     </footer>
 
-
     <script>
         const username = 'TheeKingZa';
-    
+
         fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=5`)
             .then(response => response.json())
             .then(data => {

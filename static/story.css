@@ -207,3 +207,11 @@
     background-color: var(--white);
     border: 3px inset var(--color2-main);
 }
+
+
+/* Spotify Integration  */
+.spotify-grid {
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
