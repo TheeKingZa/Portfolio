@@ -21,24 +21,43 @@ if ! git add .; then
     exit 1
 fi
 
-# Commit changes
+# Commit changes to master
 if ! git commit -m "$commit_message"; then
     echo -e "${RED}Error: Commit failed.${NC}"
     exit 1
 fi
 
+# Push to master branch
+if ! git push origin master; then
+    echo -e "${RED}Error: Failed to push changes to master.${NC}"
+    exit 1
+fi
+
+# Create or switch to gh-pages branch
+if ! git checkout gh-pages; then
+    echo -e "${GREEN}Switching to gh-pages branch...${NC}"
+    git checkout -b gh-pages
+fi
+
+# Merge master into gh-pages
+if ! git merge master; then
+    echo -e "${RED}Merge failed! Resolve conflicts and try again.${NC}"
+    exit 1
+fi
+
 # Push to gh-pages branch
-git branch -D gh-pages 2>/dev/null
-if git subtree split --prefix=dist -b gh-pages; then
-    if git push -f origin gh-pages; then
-        echo -e "${GREEN}Deployment successful!${NC}"
-        git checkout main
-        git branch -D gh-pages
-    else
-        echo -e "${RED}Deployment failed!${NC}"
-        exit 1
-    fi
+if ! git push -f origin gh-pages; then
+    echo -e "${RED}Error: Deployment to gh-pages failed.${NC}"
+    exit 1
+fi
+
+# Switch back to master
+git checkout master
+
+# Check if there were any errors
+if [ $? -eq 0 ]; then
+    echo -e "${GREEN}Successfully deployed to gh-pages and switched back to master!${NC}"
 else
-    echo -e "${RED}Failed to create gh-pages branch.${NC}"
+    echo -e "${RED}Error occurred while switching back to master.${NC}"
     exit 1
 fi
