@@ -1,80 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./static/root.css">
-    <link rel="stylesheet" href="./static/story.css">
-    <link rel="stylesheet" href="./static/navBar.css">
-    <link rel="stylesheet" href="./static/animations.css">
-    <link rel="stylesheet" href="./static/small_screens.css">
-    <link rel="stylesheet" href="./static/large_screens.css">
-    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website for Pule Mathikha - Frontend Developer, Designer, and Creative" />
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/Logos/logo.png" />
+    <title>Pule Mathikha | Portfolio</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <link rel="stylesheet" href="./assets/css/me_set.css"/>
+    <link rel="stylesheet" href="./assets/css/timestamp.css"/>
+    <link rel="stylesheet" href="./assets/css/intro_role.css"/>
+    <link rel="stylesheet" href="./assets/css/github_stats.css"/>
+    <link rel="stylesheet" href="./assets/css/imgs_sizes.css"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <a href="#"><button class="fixed_Goto_top">^</button></a>
-    <nav>
-        <div class="logo-S"></div>
-        <div>
-            <h1>Portfolio</h1>
-        </div>
-    </nav>
-
-    <div class="trap">
-        <div class="trap-block1">
-            <div class="intro">
-                <div class="intro-1">
-                    <p>Hello World !!</p>
-                </div>
-                <div class="nameis-grid">
-                    <div class="intro-2">
-                        <p>My Name is</p>
-                    </div>
-                    <div>
-                        <h1 class="intro-3">Pule</h1>
-                    </div>
-                </div>
+    <!-- Header / Navigation -->
+    <header>
+        <nav>
+            <div>
+                <h2>Pule Mathikha</h2>
             </div>
-            <div class="intro-brief">
+            <ul class="nav-list">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+      <div class="intro-brief">
                 <h1>I AM A...</h1>
-                <p>ARTIST</p>
-                <p>GRAPHIC DESIGNER</p>
-                <p>SOFTWARE ENGINEER</p>
-                <p>TEAM PLAYER</p>
-                <p>HIP HOP DANCER</p>
-            </div>
-        </div>
-
-        <div class="trap-sub-nav">
-            <h1>Welcome to My Journey</h1>
-        </div>
-
-        <div class="welcome-2-my">
-            <div class="trap-block3">
-                <div class="Block3">
-                    <p>I'm excited to introduce myself to this dynamic community. I am a passionate software engineer with a keen interest in the arts, particularly drawing and music. As a multifaceted individual, I bring a unique blend of creativity and technical expertise to any project.</p>
-                    <p>In the world of software engineering, I thrive as a team player. Collaboration is not just a strategy for me, it's a philosophy. I believe that diverse perspectives lead to innovative solutions, and I am always eager to contribute my skills and learn from others. My commitment to teamwork is complemented by my ability to work independently, making me well-suited for remote opportunities.</p>
-                    <p>Adaptability is one of my strengths. I am comfortable working under pressure, navigating complex challenges, and delivering high-quality results within deadlines. I understand the importance of seeking help when needed, valuing the collective intelligence of a team.</p>
-                    <p>I am currently exploring remote job opportunities and am enthusiastic about the prospect of bringing my skills and passion to a new project. If you are looking for a dedicated and versatile team member, I'd love to connect.</p>
-                </div>
-                <div class="Block-img">
-                    <img src="./imgs/Logos/logo.png" alt="Logo">
-                </div>
-            </div>
-        </div>
-
-        <div class="trap-block4" id="about_me">
-            <div class="content-card">
-
-                <div class="card-logo">
-                <a href="https://github.com/TheeKingZa/Portfolio/README.md">
-                <img class="imgs-sub-nav" src="./imgs/socials/github.png" alt="Github">
-                <div class="socials">Github</div>
-            </a>
+                <ul class="roles-list">
+                    <li>ARTIST</li>
+                    <li>GRAPHIC DESIGNER</li>
+                    <li>SOFTWARE ENGINEER</li>
+                    <li>TEAM PLAYER</li>
+                    <li>HIP HOP DANCER</li>
+                </ul>
             </div>
 
-                <!-- Github Statistics -->
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Bio</h2>
+        <p>
+            A passionate Frontend Developer & Designer dedicated to building interactive, user-friendly websites that help small businesses establish their online presence — often starting with simple, elegant static sites to showcase their work. Combining technical skill with creativity, I also explore music production and drawing/illustrations, bringing an artistic perspective to every project. My goal is to craft designs and experiences that not only work seamlessly but also inspire and connect with audiences.
+        </p>
+
+
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <div class="me-img"></div>
+
+
+    <!-- Projects Section -->
+    <section id="projects" style="padding-top: 10vh;">
+        <h2>Projects</h2>
+        <div class="project">
+            <a href="https://theekingza.github.io/GoDeeper_Podcast/" 
+            target="_blank">
+            <h3>
+                GoDeeperPodcast-2024
+            </h3>
+        </a>
+            <p>I started Working with <a href="https://www.youtube.com/@GoDeeperPodcast-2024">Go Deeper Podcast</a> around <b style="color: var(--accent-color);">May</b> as a Videographer/Editor. We started on working on the <a href="https://youtu.be/FRuhBDn5GsE?si=XhkKqqgtCh3HD6LQ">The build-up</a>. Then recorded the 3rd Episode on <a href="https://youtu.be/vms4dF-Xtgo?si=D3oTD3lxT49rLgal">The Art of Expression with K.Surprem</a>. I was also part of the shooting anc editing on the 4th Episode <a href="https://youtu.be/Oq7trPsONWE?si=cSAwAOp8BIosLXiQ">SIYABONGA i-SUPPORT NOTHANDO</a></p>
+        </div>
+
+        <h2>Music</h2>
+
+        <div class="project">
+            <h1>Artist</h1>
+            <p><a href="https://www.youtube.com/@IMWELL_ZA">IMWELL</a></p>
+            <h3>More Money feat <a href="https://www.youtube.com/@earle_fari
+"> Earle Fari</a></h3>
+            <p>Single</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/a3NYnBlj1Vk?si=14Elt6ZzTGQaUAJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Journey -->
+            <section id="journey">
+        <h2>My Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+            <div class="content">
+                <span class="date">2015</span>
+                <h3>Weiveld Agriculture and Hotel School</h3>
+                <p>Completed My Matric</p>
+                <img src="./assets/images/Me/Weiveld/Weiveld.jpg" alt="High_School">
+            
+                <p>Reference</p>
+                <p>Call: 082 8525381</p>
+                <p>Fax: (056) 817 6688</p>
+                <p>Tell: (056) 817 6689</p>
+                <p>e-mail: <a href="mailto:principal@weiveldschool.co.za"> Click Here</a></p>
+
+            </div>
+            </div>
+            <div class="timeline-item right">
+            <div class="content">
+                    <span class="date">Start: June 2020</span>
+                    <span class="date">Ended: April 2022</span>
+                <h3>First Job</h3>
+                <p>Worked as a screener at Theha Setjhaba Primary School.</p>
+                <img src="./assets/images/Me/Theha_setjhaba/favicon_logo_white.png" alt="First Job">
+
+                <p>Reference number: 2449703/7 </p>
+                <p>Fax: (016) 974 1359</p>
+                <p>Tell: (016) 974 2433</p>
+                <p>e-mail: <a href="mailto:thehasetjhaba@gmail.com"> Click Here</a></p>
+            </div>
+            </div>
+        <div class="timeline-item left">
+            <div class="content">
+                <h3>Software Engineering Foundation</h3>
+           <span class="date">Start: 04/24/2023</span>
+           <span class="date">Ended: 03/01/2024</span>
+           <h3>Short Specializations (Frontend)</h3>
+           <span class="date">Start: 03/04/2024</span>
+           <span class="date">Ended: 06/07/2024</span>
+           <p>Graduated from Alx Holberton School.</p>
+           <img src="./assets/images/Certificates/SS.png" alt="Graduation">
+       </div>
+       </div>
+                 <div class="timeline-item right">
+            <div class="content">
+                <span class="date">Start: 08/26/2024</span>
+                <span class="date">Ended: 10/29/2024</span>
+                <h3>Professional Foundations</h3>
+                <p>Graduated from Alx Holberton School.</p>
+                <img src="./assets/images/Certificates/PF.png" alt="Graduation">
+            </div>
+            </div>
+
+                 <div class="timeline-item left">
+            <div class="content">
+                <span class="date">Start: 02/10/2025</span>
+                <span class="date">Ended: 13/11/2025</span>
+                <h3>Ai Starter Kit</h3>
+                <p>Graduated from Alx Holberton School.</p>
+                <img src="./assets/images/Certificates/ASK.png" alt="Graduation">
+            </div>
+            </div>
+        </div>
+        </section>
+
+
+            <!-- About Section -->
+    
+    <section id="about" style="padding-top: 10vh;">
+        <h2>About Me</h2>
+        <p>
+            A creative and detail-driven Frontend Developer & Designer with a passion for turning ideas into visually engaging, functional websites. I specialize in building static, user-friendly sites that give small businesses a strong starting point to showcase their products, services, and stories online.
+
+            Beyond coding, I’m deeply inspired by the arts. I create music and illustrations, blending my technical skills with my creative side to bring fresh perspectives into every project. Whether it’s designing an intuitive interface, producing a track, or sketching a concept, I believe in crafting work that leaves a lasting impression.
+
+For me, technology and creativity go hand in hand — and I’m always excited to collaborate on projects that combine both.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="padding-top: 10vh;">
+        <h2>SKILLS</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>Firebase</li>
+            <li>Data Entry</li>
+            <li>Photoshop</li>
+            <li>Ai</li>
+            <li>Capcut</li>
+            <li>Graphics Design</li>
+            <li>Responsive Web Design</li>
+            <li>Fl studio(Mastering)</li>
+        </ul>
+    </section>
+
+<!-- Github Statistics -->
                 <div class="stats">
                      
                         <div class="github-profile-summary">
@@ -84,148 +196,28 @@
                         <div class="github-stats">
                             <img src="https://github-readme-stats.vercel.app/api?username=TheeKingZa&show_icons=true&theme=radical" alt="GitHub Stats">
                         </div>
+                        <div class="github-top-langs">
+                            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheeKingZa&layout=compact&theme=radical" alt="Top Languages">
+                        </div>
+                </div>
                     
-                    <!-- Most Used Languages -->
-                    <div class="github-languages">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheeKingZa&layout=compact&theme=radical" alt="Top Languages" />
-                    </div>
-                </div>
-                
-                
-                <div class="card-2">
-                    <div class="github-repos">
-                        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TheeKingZa&theme=dracula" alt="Repos per Language" />
-                        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TheeKingZa&theme=dracula" alt="Most Commit Language" />
-                </div>
-                <!-- GitHub Activity -->
-                <div class="github-activity-graph">
-                    <img src="https://github-readme-activity-graph.vercel.app/graph?username=TheeKingZa&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/TheeKingZa/github-readme-activity-graph" alt="GitHub Activity Graph" />
-                </div>
-            </div>
-            
-            <div class="repo-grid">
-                <div class="public-repos">
-            <!-- script bellow -->
-             <h1>Public Repos</h1>
-            <div id="recent-repos"></div>
-            </div>
-              <!-- Calendar Contribution -->
-              <div class="github-contribution-calendar">
-                <h1>Contribution Calendar</h1>
-                <img src="https://ghchart.rshah.org/TheeKingZa" alt="GitHub Contribution Calendar">
-            </div>
-            </div>
-            
 
-                
-            
-        </div>
 
-        <div class="trap-block5" id="more_x_me">
-            <h1>More Of Me</h1>
-            <div class="block-inner-body">
-                <h2>Album: Vices</h2>
-                <p>2023</p>
-                <div>
-                    <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1746537492&color=%232400ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                    <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                        <a href="https://soundcloud.com/pymp-c-113503827" title="Th&#x27;&#x27;King_Za" target="_blank" style="color: #cccccc; text-decoration: none;">Th&#x27;&#x27;King_Za</a> · <a href="https://soundcloud.com/pymp-c-113503827/sets/vices" title="Vices" target="_blank" style="color: #cccccc; text-decoration: none;">Vices</a>
-                    </div>
-                </div>
-                <div>
-                    <span>[Description/Brief]</span>
-                    <p>This was a 7 track Release with Bubbah_Fresh and <a href="https://open.spotify.com/artist/1SGnF6n4cM7A6OQWAAV4oB?si=DnMErIdhQNKnnELQX-LSEA">Lobo_Za</a> featured on the album</p>
-                </div>
-                <div style="display: flex; justify-content: space-around;align-items: center; border: 3px inset rgb(250, 64, 64); padding: 5px; background-color: rgb(201, 0, 0)">
-                    <div style="display: flex; flex-direction: column; padding: 5px;">
-                        <a href="https://youtu.be/a3NYnBlj1Vk"><img src="./imgs/socials/youtube.png" alt="Youtube_logo" width="150px"></a>
-                    </div>
-                    <div>
-                        <a style="color: var(--white);" href="https://youtu.be/a3NYnBlj1Vk">More Money</a>
-                        <p>(Prod.by <a style="color: var(--white);" href="https://open.spotify.com/artist/21Z6IkzMPcAifChT85ynXN?si=Di0TRucCQzKr9sXxYwLsZw">Earle Fari</a>)</p>
-                    </div>
-                    <div>
-                        <p>2022</p>
-                        <span>[Description/Brief]</span>
-                        <p>More money a person has the more the problems too.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    
-    
-    
-    
-    <!-- Intergrading spotify -->
-<!--      
-    <div style="padding: 20px;" class="spotify-grid">
-        <h1>Integrating your Spotify activity into your portfolio website</h1>
-        <p>Integrating your Spotify activity into your portfolio website can be done by embedding Spotify tracks, playlists, albums, and artist profiles. Here are some examples:</p>
 
-        <h2>1. Embedding a Spotify Track</h2>
-        <div class="spotify-track">
-            <iframe src="https://open.spotify.com/embed/track/track-id" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <p>Replace track-id with the actual Spotify track ID.</p>
-        </div>
 
-        <h2>2. Embedding a Spotify Playlist</h2>
-        <div class="spotify-playlist">
-            <iframe src="https://open.spotify.com/embed/playlist/playlist-id" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <p>Replace playlist-id with the actual Spotify playlist ID.</p>
-        </div>
 
-        <h2>3. Embedding a Spotify Album</h2>
-        <div class="spotify-album">
-            <iframe src="https://open.spotify.com/embed/album/album-id" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <p>Replace album-id with the actual Spotify album ID.</p>
-        </div>
+    <!-- Contact Section -->
+    <section id="contact" style="padding-top: 10vh;">
+        <h2>Contact</h2>
+        <p class="pCenter">Let's connect! You can reach me via:</p>
+        <ul class="contact-list">
+            <li><a href="mailto:proceedingmc@gmail.com">Email</a></li>
+            <li><a href="https://github.com/TheeKingZa" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/pulemathikha" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
 
-        <h2>4. Embedding a Spotify Artist Profile</h2>
-        <div class="spotify-artist">
-            <iframe src="https://open.spotify.com/embed/artist/artist-id" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <p>Replace artist-id with the actual Spotify artist ID.</p>
-        </div>
-
-        <h2>5. Display Recent Spotify Tracks Using JavaScript (requires access to Spotify API)</h2>
-        <div id="recent-spotify-tracks"></div>
-        <script>
-            const accessToken = 'your-spotify-access-token';
-
-            fetch('https://api.spotify.com/v1/me/top/tracks', {
-                headers: {
-                    'Authorization': `Bearer ${accessToken}`
-                }
-            })
-            .then(response => response.json())
-            .then(data => {
-                const tracksContainer = document.getElementById('recent-spotify-tracks');
-                data.items.forEach(track => {
-                    const trackElement = document.createElement('div');
-                    trackElement.innerHTML = `
-                        <iframe src="https://open.spotify.com/embed/track/${track.id}" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    `;
-                    tracksContainer.appendChild(trackElement);
-                });
-            });
-        </script>
-        <p>Replace your-spotify-access-token with your actual Spotify access token (you need to register an application on Spotify to get an access token).</p>
-
-        <h2>6. Embedding a Spotify Follow Button</h2>
-        <div class="spotify-follow-button">
-            <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:artist-id&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-            <p>Replace artist-id with your Spotify artist ID.</p>
-        </div>
-    </div> -->
-    
-    
-    
-    
-    <div style="background-color: var(--color2-main);display: flex; justify-content: center;">
-        <h1>Stay Tuned...</h1>
-    </div>
-    
     <!-- Footer -->
     <footer>
         <div class="information-footer">
@@ -238,72 +230,62 @@
         <div class="icons">
             <!-- facebook -->
              <button>
-                <a href="https://www.facebook.com/cursedwell">
-                    <img src="./imgs/socials/facebook.png" alt="facebook">
+                <a href="https://www.facebook.com/IMW3LL/">
+                    <img class="img-socials" src="./assets/images/Socials/facebook.png" alt="facebook">
 
              </button>
             <!-- Whatsapp -->
             <button>
                 <a href="https://wa.me/qr/4F6VTKZQC2TQD1">
-                    <img src="./imgs/socials/whatsapp.png" alt="Whatsapp_logo">
+                    <img class="img-socials" src="./assets/images/Socials/whatsapp.png" alt="Whatsapp_logo">
                 </a>
             </button>
             <!-- Youtube -->
             <button>
-                <a href="https://music.youtube.com/watch?v=a3NYnBlj1Vk&si=lDAEftFM5AQPdyhh">
-                    <img src="./imgs/socials/youtube.png" alt="YouTube">
+                <a href="https://music.youtube.com/IMWELL_ZA">
+                    <img class="img-socials" src="./assets/images/Socials/youtube.png" alt="YouTube">
                 </a>
             </button>
             <!-- Tiktok -->
             <button>
-                <a href="https://www.tiktok.com/@pmc_za">
-                    <img src="./imgs/socials/tiktok.png" alt="TikTok">
+                <a href="https://www.tiktok.com/@imwell_za">
+                    <img class="img-socials" src="./assets/images/Socials/tiktok.png" alt="TikTok">
                 </a>
             </button>
             <!-- X -->
             <button>
                 <a href="https://x.com/Pule_Mathikha">
-                    <img src="./imgs/socials/x.png" alt="X">
+                    <img class="img-socials" src="./assets/images/Socials/x.png" alt="X">
                 </a>
             </button>
             <!-- Linkedin -->
             <button>
                 <a href="https://www.linkedin.com/in/pulemathikha">
-                    <img src="./imgs/socials/linkedin.png" alt="LinkedIn">
+                    <img class="img-socials" src="./assets/images/Socials/linkedin.png" alt="LinkedIn">
                 </a>
             </button>
             <!-- SoundCloud -->
             <button>
-                <a href="https://soundcloud.com/cursedwell">
-                    <img src="./imgs/socials/soundcloud.png" alt="Soundcloud" width="285px" height="200px">
+                <a href="https://soundcloud.com/imwell">
+                    <img class="img-socials" src="./assets/images/Socials/soundcloud.png" alt="Soundcloud" width="285px" height="200px">
                 </a>
             </button>
             <!-- Twitch -->
             <button>
-                <a href="https://kingza%20nikeehttg/">
-                    <img src="./imgs/socials/twitch.png" alt="Twitch">
+                <a href="https://www.twitch.tv/imwell_za">
+                    <img class="img-socials" src="./assets/images/Socials/twitch.png" alt="Twitch">
+                </a>
+            <!-- linktree -->
+            <button>
+                <a href="https://linktr.ee/imwell">
+                    <img class="img-socials" src="./assets/images/Socials/linktree.png" alt="Linktree">
                 </a>
             </button>
         </div>
     </footer>
 
-    <script>
-        const username = 'TheeKingZa';
-
-        fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=10`)
-            .then(response => response.json())
-            .then(data => {
-                const reposContainer = document.getElementById('recent-repos');
-                data.forEach(repo => {
-                    const repoElement = document.createElement('div');
-                    repoElement.innerHTML = `
-                        <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
-                        <p>${repo.description || 'No description'}</p>
-                    `;
-                    reposContainer.appendChild(repoElement);
-                });
-            });
-    </script>
-    
+    <!-- JavaScript -->
+    <script src="./assets/js/run.js"></script>
+    <script src="./assets/js/timeline.js"></script>
 </body>
 </html>
